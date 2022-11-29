@@ -1,0 +1,49 @@
+<div>
+    <ng-container *ngIf="action=='AlertMsg'">
+      <h1 mat-dialog-title>Alert</h1>
+    <p>{{dataReceived.msg}}</p>
+    <mat-dialog-actions align="end">
+      <button mat-raised-button color="warn" mat-dialog-close>Close</button>
+      <button mat-raised-button color="primary">OK</button>
+
+    </mat-dialog-actions>
+  </ng-container>
+<ng-container *ngIf="dataReceived.action=='FormControl'">
+  <h1 mat-dialog-title>Dialog With FormControl</h1>
+  <mat-form-field>
+    <mat-label>
+      Name
+    </mat-label>
+    <input matInput>
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>
+      E-Mail
+    </mat-label>
+    <input matInput>
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>
+        Mobile Number
+    </mat-label>
+    <input matInput>
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>
+      Age
+    </mat-label>
+    <input matInput>
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>
+      City
+    </mat-label>
+    <input matInput>
+  </mat-form-field>
+  <mat-dialog-actions align="end">
+    <button mat-raised-button color="warn" mat-dialog-close>Close</button>
+    <button mat-raised-button color="primary">Submit</button>
+
+  </mat-dialog-actions>
+</ng-container>
+</div>

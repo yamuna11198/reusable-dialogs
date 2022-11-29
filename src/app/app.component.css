@@ -1,0 +1,14 @@
+.align-button{
+  margin:50px;
+  padding:100px;
+  text-align: center;
+  background-color: aliceblue;
+}
+button{
+  margin-left:10px;
+}
+h1{
+  text-align:center;
+  margin-top:20px;
+  font-weight: bold;
+}

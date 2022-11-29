@@ -1,0 +1,46 @@
+[
+  {
+    "sectorCode": "1",
+    "sectorDesc": "Automobile"
+  },
+  {
+    "sectorCode": "2",
+    "sectorDesc": "Chemicals"
+  },
+  {
+    "sectorCode": "3",
+    "sectorDesc": "Communication"
+  },
+  {
+    "sectorCode": "4",
+    "sectorDesc": "Construction"
+  },
+  {
+    "sectorCode": "5",
+    "sectorDesc": "Energy"
+  },
+  {
+    "sectorCode": "6",
+    "sectorDesc": "Engineering"
+  },
+  {
+    "sectorCode": "7",
+    "sectorDesc": "Financial"
+  },
+  {
+    "sectorCode": "8",
+    "sectorDesc": "Healthcare"
+  },
+  {
+    "sectorCode": "9",
+    "sectorDesc": "Metals"
+  },
+  {
+    "sectorCode": "10",
+    "sectorDesc": "Technology"
+  },
+  {
+    "sectorCode": "11",
+    "sectorDesc": "Textiles"
+  }
+]
